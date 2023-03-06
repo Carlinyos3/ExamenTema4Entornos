@@ -8,20 +8,24 @@ package vehiculo;
 public class VehiculoCAB2223 {
 
     /**
-     * @return Un string que contiene el nombre del vehiculo
+     * Devuelve un string que contiene el nombre del vehiculo
+     * @return 
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * @param nombre introduce el nombre al vehiculo
+     * introduce el nombre al vehiculo
+     * @param nombre el nombre al vehiculo
+     * 
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     /**
+     * Devuelve un double con el precio del vehiculo
      * @return Un double con el precio del vehiculo
      */
     public double getPrecio() {
@@ -29,6 +33,7 @@ public class VehiculoCAB2223 {
     }
 
     /**
+     * Introduce el precio del vehiculo
      * @param precio Introduce el precio del vehiculo
      */
     public void setPrecio(double precio) {
@@ -36,6 +41,7 @@ public class VehiculoCAB2223 {
     }
 
     /**
+     * Devuelve un double con el precio mas el IVA del vehiculo
      * @return Un double con el precio mas el IVA del vehiculo
      */
     public double getPrecioIVA() {
@@ -43,6 +49,7 @@ public class VehiculoCAB2223 {
     }
 
     /**
+     * Introduce el precio mas el IVA del vehiculo
      * @param precioIVA Introduce el precio mas el IVA del vehiculo
      */
     public void setPrecioIVA(double precioIVA) {
@@ -50,6 +57,7 @@ public class VehiculoCAB2223 {
     }
 
     /**
+     * Devuelve un int del stock del vehiculo
      * @return Un int del stock del vehiculo
      */
     public int getStock() {
@@ -57,6 +65,7 @@ public class VehiculoCAB2223 {
     }
 
     /**
+     * Introduce el stock del vehiculo
      * @param stock Introduce el stock del vehiculo
      */
     public void setStock(int stock) {
@@ -68,13 +77,19 @@ public class VehiculoCAB2223 {
     private double precioIVA;
     private int stock;
 
-    /* Constructor sin argumentos */
+    /**
+     * Constructor sin argumentos
+     */
     public VehiculoCAB2223 ()
     {
     }
-    // Constructor con parámetro para iniciar todas las propiedades de la clase
-    
-    
+
+    /**
+     * Constructor con parámetro para iniciar todas las propiedades de la clase
+     * @param nom El nombre del Vehiculo
+     * @param precio El precio
+     * @param stock El stock
+     */
     public VehiculoCAB2223 (String nom, double precio, int stock)
     {
         this.nombre =nom;
@@ -82,7 +97,7 @@ public class VehiculoCAB2223 {
         this.stock=stock;
     }
    /**
-    * 
+    * Introduce el nombre del vehiculo
     * @param nom Introduce el nombre del vehiculo
     */
     public void asignarNombre(String nom)
@@ -99,8 +114,8 @@ public class VehiculoCAB2223 {
     }
 
     /**
-     * 
-     * @return Método que me devuelve el stock de vehiculos disponible en cada momento
+     * Método que me devuelve el stock de vehiculos disponible en cada momento
+     * @return el stock de vehiculos disponible en cada momento
      */
      public int obtenerStock ()
     {
