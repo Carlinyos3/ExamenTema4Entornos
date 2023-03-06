@@ -2,7 +2,7 @@
 package vehiculo;
 
 /**
- *
+ * Esta clase contiene todos los datos de nuestro vheiculo y sus funcionamientos
  * @author Carlos Arjona Badia
  */
 public class VehiculoCAB2223 {

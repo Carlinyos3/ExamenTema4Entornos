@@ -2,7 +2,7 @@
 package vehiculo;
 
 /**
- *
+ *El main contiene el uso de nuestra aplicacion
  * @author Carlos Arjona Badia
  */
 public class Main {
